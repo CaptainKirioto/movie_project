@@ -1,0 +1,12 @@
+{
+  "films": [
+    { "id": "1", "title": "Creature from the Black Lagoon", "year": 1954 },
+    { "id": "2", "title": "Dracula", "year": 1931 },
+    { "id": "3", "title": "The Mummy", "year": 1932 }
+  ],
+  "comments": [
+    { "id": "1", "title": "Why Women Kill", "year": 2019 },
+    { "id": "2", "title": "Dark", "year": 2017 },
+    { "id": "3", "title": "True Detective", "year": 2014 }
+  ]
+}
