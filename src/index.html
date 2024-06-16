@@ -5,13 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>All my movies</h1>
+    <section class="container">
+      <h1 class="main-header">Movie Library</h1>
 
-    <h2>Films to watch:</h2>
+      <h2 class="introduction-header">Films to watch:</h2>
 
+      <div class="films-container"></div>
+    </section>
     <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/list-api.js"></script>
   </body>
 </html>
